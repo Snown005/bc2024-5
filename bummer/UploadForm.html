@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+  </head>
+<body>
+
+  <h2>Upload Form</h2>
+
+  <form method="post" action="/write">
+    <label for="note_name_input">Note Name:</label><br>
+    <input type="text" id="note_name_input" name="note_name"><br><br>
+    <label for="note_input">Note:</label><br>
+    <textarea id="note_input" name="note" rows="4" cols="50"></textarea><br><br>
+    <button type="submit">Upload</button>
+  </form>
+
+  <p>If you click the "Submit" button, the form-data will be sent to a page called "/write".</p>
+
+</body>
+
+</html>
